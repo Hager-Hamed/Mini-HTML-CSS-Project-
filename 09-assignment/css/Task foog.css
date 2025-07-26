@@ -1,0 +1,592 @@
+/* general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f5f5;
+}
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+/* start Home */
+.landing-page {
+    position: relative;
+    background-color: #f7f5f5;
+}
+.landing-page .header-area {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+}
+.landing-page .header-area .logo {
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 30px;
+    width: 300px;
+    color: #5d5d5d;
+}
+.landing-page .header-area .logo:hover{
+    color: #069c54;
+}
+.landing-page .header-area .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header-area .links li {
+    display: inline-block;
+    margin-left: 30px;
+    color: #707070;
+    cursor: pointer;
+    font-size:20px;
+
+}
+.landing-page .header-area .links li.active {
+    color:#05dd75 ;  
+}
+.landing-page .header-area .links li:hover {
+    color:#0add77 ; 
+}
+
+.landing-page .info {
+    width: 35%;
+    float: left;
+    margin-top: 130px;
+}
+.landing-page .info h1 {
+    font-size: 50px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: #069c54;
+}
+
+.landing-page .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size:30px;
+    color: #393939;
+}
+
+.landing-page .info button {
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 14px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #069c54;
+}
+
+
+
+.landing-page .image {
+    width: 50%;
+    float: right;
+    margin-top: 35px;
+}
+
+.landing-page .image img {
+    max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* End Home  */
+
+/* Start about   */
+
+.ABOUT{
+   overflow: hidden;
+
+}
+.about-image {
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about{
+    width:45%;
+    float: right;
+    margin-top: 130px;
+
+}
+
+.about h5{
+    font-size:30px;
+    color: #069c54;
+
+}
+
+.about h2{
+    margin: 0;
+    font-size:40px;
+    color: #393939;
+    padding-top: 20px;
+}
+
+.about p{
+    padding-top: 20px;
+    font-size:15px;
+    color: #8d8888;
+
+}
+
+.about button {
+
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #069c54;
+z-index: 1;
+overflow: hidden;
+}
+
+/* End about */
+
+ /*start Services */
+ .hero {
+    display:inline-block;
+     margin-top: 30px;
+     padding-left: 150px;
+  }
+ .hero .text-center{
+     text-align: center;
+     margin-top: 30px;
+ 
+ }
+ .hero .text-center span{
+     color: #069c54;
+     font-size: 20px;
+ }
+ .hero .text-center h2{
+     font-size: 30px;
+     padding-top: 20px;
+ }
+ .hero .text-center p{
+ color: #8d8888;
+ 
+ }
+ .hero .icon{
+     padding: 50px;
+ margin-top: 20px;  
+ display: flex;
+ flex-wrap: nowrap;
+ align-items: center;
+ grid-gap: 30px;
+ }
+ 
+ .hero .icon h2{
+color: #6e6b6b;
+text-align: center; 
+padding-top: 20px;
+}
+
+ .hero .icon p{
+color: #858383;
+padding-top: 25px;
+line-height: 1.5;
+ }
+
+ .hero .icon .logo {
+ color: #069c54;
+font-size: 40px;
+transition: 0.3s;
+text-align: center;
+
+ }
+ 
+
+ /*End Services  */
+
+/* Start Menu */
+.menu {
+    display:inline-block;
+    margin-top: 30px;
+    padding-left: 50px;
+  }
+ .menu .Special{
+     text-align: center;
+     margin-top: 20px;
+ 
+ }
+ .menu .Special span{
+     color: #069c54;
+     font-size: 20px;
+     padding: 20px;
+ }
+
+ .menu .Special h2{
+     font-size: 30px;
+     padding-top: 20px;
+ }
+.Barbecue-Salad{
+display: flex;
+flex-wrap: wrap ;
+margin-top: 30px;
+padding-left: 150px;
+}
+
+.Barbecue-Salad .box{
+background-color:#ebecec;
+box-shadow: 1px 1px 2px #ebecec;
+padding: 40px;
+border-radius: 10px;
+position: relative;
+text-align: center;
+margin: 20px;
+}
+
+.box .image {
+width: 206px;
+height: 139px;
+margin-bottom: 92px;
+max-width: 100%;
+
+}
+
+.box-title{
+color: black;
+font-weight: bold;
+font-size: 20px;
+}
+
+.description{
+color: #777;
+margin-top: 20px;
+}
+
+.price{
+display: block;
+margin-top: 10px;
+padding-bottom: 10px;
+color: #393939;
+font-weight: bold;
+font-size: 20px;
+}
+
+.menu .box a{
+position: absolute;
+bottom: 0;
+right: 0;
+width: 34px;
+height: 34px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #3d9b6d;
+color: #fbfefd;
+border-bottom-right-radius:8px ;
+border-top-left-radius:8px ;
+
+}
+/* End Menu */
+/* Start App  */
+
+.App-image {
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+}
+
+.App-image img {
+    max-width: 100%;
+}
+
+.App{
+
+    width:50%;
+    float: right;
+    margin-top: 305px;
+}
+
+.App h5{
+    font-size: 20px;
+    color: #0add77;
+}
+
+.App h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.App p{
+    font-size: 20px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.btns{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top: 10px;
+}
+
+.btns .btn-apple{
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding:4px 10px ;
+border-radius:9px ;
+text-decoration: none;
+}
+
+.i-apple{
+color: black;
+font-size: 30px;
+
+}
+
+.btn-text{
+display: flex;
+flex-direction: column;
+list-style: none;
+}
+.btn-text .l-1{
+font-size: 10px;
+color: black;
+font-weight: bold;
+}
+.btn-text .l-2{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+.btns .btn-google{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding:4px 10px ;
+    border-radius:9px ;
+    text-decoration: none;
+    }
+.btns .btn-google .i-google{
+    color: black;
+    font-size: 30px;
+
+}
+/* End App */
+
+/* Start contact */
+
+.contact {
+    display:inline-block;
+    margin-top: 30px;
+    padding-left: 50px;
+
+}
+
+.contact h4{
+color: #05dd75;
+}
+
+.contact h2{
+   font-size: 30px;
+margin-top: 20px;
+
+}
+
+.contact p{
+margin-top:30px ;
+color: #6e6d6d;
+
+}
+
+
+.contact .button{
+float: right;
+padding: 10px 20px;
+font-size: 20px;
+border-radius: 10px;
+}
+
+
+.contact a{
+color: #fff4f4;
+background-color: #069c54;
+position: relative;
+overflow: hidden;
+z-index: 1;
+
+}
+
+/* End contact */
+/*  start footer*/
+
+.footer{
+    display:inline-block;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding: 50px;
+}
+.footer .row{
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px ;
+margin-right: 20px;
+margin-left: 15px ;
+
+}
+.footer .row .Restaurant{
+margin-left: 10px;
+}
+
+.footer .row .Restaurant a{
+color: #069c54;
+font-size: 25px;
+text-decoration: none;
+font-family: "Poppins", sans-serif;
+}
+
+.footer .row .Restaurant a:hover{
+    color: black;
+}
+
+.footer .row .Restaurant p{
+margin-top: 5px;
+color: #6e6b6b;
+}
+.footer .row .Restaurant .icon{
+margin-top:20px ;
+font-size: 25px;
+}
+
+
+.footer .row .Services{
+    margin-left: 90px;
+}
+.footer .row .Services h2{
+color: #393939;
+font-size: 30px;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+.footer .row .Information{
+    margin-left: 90px;
+
+}
+
+.footer .row .Information h2{
+
+    color: #393939;
+font-size: 30px;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+
+.footer .row .adress{
+    margin-left: 90px;
+
+}
+
+.footer .row .adress h2{
+    color: #393939;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.footer .row .Services .link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #5d5d5d;
+    
+
+}
+
+
+.footer .row .Information .link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #5d5d5d;
+    
+
+}
+
+
+.footer .row .adress .links {
+   display: flex;
+flex-direction: column;
+gap: 10px;
+color: #5d5d5d;
+
+}
+.footer .row .Information a{
+    text-decoration: none;
+    color: #918b8b;
+
+}
+
+
+.footer .row .adress a{
+    text-decoration: none;
+    color: #918b8b;
+
+}
+
+.footer .row .Services a{
+    text-decoration: none;
+    color: #918b8b;
+}
+.footer .row .Information li,
+.footer .row .adress li,
+.footer .row .Services li{
+   list-style: none;
+}
+
+.footer .row .Information a:hover{
+
+    color: black;
+
+}
+
+.footer .row .adress a:hover{
+    color: black;
+
+}
+
+.footer .row .Services a:hover{
+    color: black;
+}
+
+
+
+
+/* end footer  */

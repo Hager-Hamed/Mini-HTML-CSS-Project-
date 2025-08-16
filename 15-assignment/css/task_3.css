@@ -1,0 +1,459 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:tahoma;
+}
+::selection{
+    color:#ffffff;
+    background-color:#EABE2C;
+}
+
+a{
+    text-decoration:none;
+    display:inline-block;
+}
+
+ul li{
+    list-style:none;
+}
+
+.container{
+    width:85%;
+    margin:0 auto;
+    
+}
+
+.clearFix::after{
+    content:"";
+    clear:both;
+    display:block;
+
+}
+
+header ul.nav {
+  text-align:center;
+  padding:25px 25px 0px 25px;
+ 
+}
+header ul.nav >li{
+    display:inline-block;
+    position:relative;
+    height:50px;
+}
+header ul.nav li a {
+    color:#252525;
+    font-weight:bold;
+    margin:0px 15px;
+    position: relative;
+
+}
+header  ul.nav li:hover > a{
+    color:#F4CF34;
+}
+header ul.nav li a#logo{
+    font-size:40px;
+    position: relative;
+    top:10px;
+    font-weight:lighter;
+}
+header  ul.nav li:hover a#logo{
+    color:#252525;
+}
+header ul.nav li#drop div.drop_menu{
+    position:absolute;
+    top:100%;
+    left:10px;
+    width: 500px;
+    padding:15px;
+    border:1px rgb(219, 231, 229) solid;
+    background-color:#ffffff;
+    display:none;
+}
+header ul.nav li#drop div.drop_menu ul.left{
+    float:left;
+
+    margin:15px 6px 15px 15px;
+}
+header ul.nav li#drop div.drop_menu ul.right{
+    float:right;
+    margin:15px 15px 15px 35px;
+}
+header ul.nav li#drop div.drop_menu ul li{
+    margin:15px 0px;
+  
+}
+header ul.nav li#drop:hover div.drop_menu{
+    display:block;
+}
+
+header .banner{
+    background-color:#72D8C4;
+    color:#397265;
+    padding:25px;
+}
+header .banner p{
+    float: left;
+    font-size:15px;
+    margin-right:100px;
+}
+section.slider{
+    height:600px;
+    background-image:url("../img/slider_bkg_shoes2_small.jfif");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+section.slider .container div{
+    position:relative;
+    top:220px;
+}
+section.slider .container div h2{
+    font-size:50px;
+    font-weight:lighter;
+}
+section.slider .container div a{
+    color:#111111;
+    border:2px #111111 solid;
+    width:200px;
+    height:60px;
+    line-height:60px;
+    padding-left:20px;
+    font-size: 22px;
+   
+}
+section.slider .container div a:hover,section.slider .container div a#fixed:hover{
+    background-color:#111111;
+    border-color:#111111;
+    color:#ffffff;
+    transition: 0.3s ease-in;
+}
+ section.slider .container div a#fixed{
+    background-color:#333333;
+    color:#ffffff;
+    border-color:#333333;
+} 
+section.classification > div{
+    
+    margin-top:30px;
+    width:260px;
+    height:250px;
+    position:relative;
+    margin-right:26px;
+    float: left;
+}
+section.classification > div img{
+    width:100%;
+    height:100%;
+}
+section.classification > div div.button{
+    position:absolute;
+    top:40%;
+    left:10%;
+    width:200px;
+    text-align:center;
+    background-color:#ffffff;
+    padding:15px;
+    transition: 0.3s linear;
+}
+section.classification > div div.button:hover{
+    background-color:#E4E4E4;
+}
+
+section.classification > div div.button a{
+    color:#000000;
+    font-size:15px;
+}
+section.classification > div div.button a#right{
+    transform: translateX(-20px);
+    display:none;
+    transition:transform 2s ease-in-out;
+}
+
+section.classification > div div.button:hover a#right{
+    transform: translateX(0px);
+    display: inline-block;
+}
+
+section.trending > div {
+    width: 356px;
+    height:452px;
+    margin-right:25px;
+    background-color:#ffffff;
+    margin-top:25px;
+    float:left;
+
+}
+section.trending > div:hover{
+    
+    box-shadow:5px 5px 10px #b1abab, -5px -5px 10px #b1abab ;
+}
+section.trending > div img{
+    width:100%;
+    height:70%;
+}
+section.trending > div div.descript{
+    padding:30px;
+}
+section.trending > div div.descript div.left{
+    float:left;
+}
+section.trending > div div.descript div.left h3{
+    margin-bottom:10px;
+}
+section.trending > div div.descript div.right{
+    float:right;
+}
+section.trending > div div.descript div.left h3:hover,
+section.trending > div div.descript div.left p:hover {
+    cursor:pointer;
+    color:#F4CF34;
+}
+
+section.wrapper{
+
+    background-color:#222222;
+}
+section.wrapper .top {
+    height:600px;
+    background-image:url("../img/waves.jfif");
+    filter:grayscale(40%);
+    background-size:cover;  
+    
+}
+
+section.wrapper .top div{
+    position:relative;  
+    top:80px;
+    text-align:center;
+    width:500px;
+    margin:0 auto;
+    color:#ffffff;
+    font-size:30px;
+}
+section.wrapper .top div a{
+    margin-top:30px;
+    font-size:15px;
+    color:#ffffff;
+    border:2px #ffffff solid;
+    border-radius:25px;
+    padding:15px;
+    transition:0.4s;
+    
+}
+section.wrapper .top div a:hover{
+    background-color:#ffffff;
+    color:#0e0c0c;;
+}
+
+
+section.wrapper .bottom{
+    color:#ffffff;
+    font-weight:lighter;
+    padding:25px 0px;
+    
+}
+section.wrapper .bottom div{
+    width:350px;
+    height:150px;
+    text-align:center;
+    float:left;
+    margin-top:50px;
+    margin-right:32px;
+
+}
+section.wrapper .bottom div h4{
+    margin-bottom:25px;
+}
+
+
+section.featured_items{
+    margin-top:30px;
+}
+section.featured_items img{
+    width:100%;
+    height:100%;
+    transition:1s;
+}
+section.featured_items .text{
+    position:absolute;
+    top:20px;
+    padding:10px;
+    overflow:hidden;
+    color:#FFFAF1;
+}
+section.featured_items .text h4{
+    margin-bottom:15px;
+    transform:translateX(-80px);
+    transition:transform .3s;
+    
+
+}
+section.featured_items .text h5{
+    transform:translateX(-80px);
+    transition:transform .5s;
+    
+}
+section.featured_items  .price{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    width:60px;
+    height:60px;
+    text-align:center;
+    background-color:#ffffff;
+    line-height:60px;
+}
+
+
+section.featured_items .left_top{
+    width:45%;
+    height:400px;
+    position:relative;
+    transition:0.5s;
+    float:left;
+    margin-right:20px;
+    overflow:hidden;
+} 
+section.featured_items .left_top:hover img{
+    
+    filter:brightness(50%);
+    transform:scale(1.2,1.2);
+}
+section.featured_items .left_top:hover .text h4,
+ section.featured_items .left_top:hover .text h5{
+    transform:translateX(0px);
+    
+}
+
+
+section.featured_items .right_top{
+    width:45%;
+    float:right;
+}
+section.featured_items .right_top > div{
+    position:relative;
+    width:45%;
+    margin-right:20px;
+    margin-bottom:20px;
+    height:190px;
+    float:left;
+    overflow:hidden;
+} 
+section.featured_items .right_top div:hover img{
+    transform:scale(1.2,1.2);
+    filter:brightness(50%);
+}
+section.featured_items .right_top div:hover .text h4,
+section.featured_items .right_top div:hover .text h5{
+    transform:translateX(0px);
+}
+
+
+
+section.latest_news  div {
+    width:360px;
+    float:left;
+    margin-right:20px;
+
+}
+section.latest_news  div img{
+    width:100%;
+}
+section.latest_news  div img:hover{
+    filter:brightness(60%);
+}
+section.latest_news  div h4:hover{
+    color:#F4CF34;
+    cursor:pointer;
+}
+
+footer{
+    background-color:#252525;
+    margin-top:30px;
+}
+footer .top div{
+    width:50%;
+    float: left;
+   
+}
+footer .top div img{
+    width:100%;
+
+}
+footer .top div img:hover{
+    filter:brightness(60%);
+}
+
+footer .bottom{
+    padding:40px 0px 80px 0px;
+}
+
+footer .bottom > div {
+    color:#99998A;
+    width:360px;
+    margin-right:22px;
+    float:left;
+}
+
+footer .bottom > div .social{
+    margin-top:20px;
+    color:#ffffff;
+    width:40px;
+    height:40px;
+    position:relative;
+    float:left;
+    margin-right:10px;
+    overflow:hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+footer .bottom > div .social span{
+    display:inline-block;
+    position:absolute;
+    top: 11px;
+    left: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+footer .bottom > div .social span#hidden{
+    top: 50px;
+    left: 20px;
+    
+}
+footer .bottom > div .social:hover{
+    background-color:#647BAD;
+}
+footer .bottom > div .social:hover span#showen{
+    top: -50px;
+    left: 20px;
+}
+footer .bottom > div .social:hover span#hidden{
+    top: 11px;
+    left: 15px;
+}
+
+footer .bottom > div input{
+    margin-top:30px;
+    width:100%;
+    height:40px;
+    border:none;
+    outline:none;
+    background-color:#252525;
+    border-bottom:2px #ffffff solid;
+    color:#999999;
+}
+footer .bottom > div input:focus{
+    border-color:#EABE2C;
+}
+
+
+
+
+
+
+
+
+
+
+
